@@ -76,12 +76,11 @@ pdf("plots/Figure16.pdf", width = 8, height = 5)
                                                    tau = tau,
                                                    forecast.obj = forecast.obj)
     }
-  
+    expectile_estimates <- sort(expectile_estimates)
     
     plot(expectile_estimates, expectile_levels, type = "o", 
          xlab = "Expectile", ylab = "Expectile Level",
          main = predict_date)
-    abline(v = obs, lty = 2, col = "gray")
     
     predict_date <- as.Date(predict_date)
     cdf_at_e <- cdf_from_expect(e = expectile_estimates, tau = expectile_levels)
