@@ -1,0 +1,17 @@
+DANJI_POINT.shp
+DAN_ID : 산업단지코드(산업입지정보망에서 관리하는 단지별 관리코드)
+
+IL_MAIN.mdb
+DANJI_CD  : 산업단지코드(산업입지정보망에서 관리하는 단지별 관리코드)
+DANJI_NM  : 산업단지명
+
+DANJI_TYPE
+ - 1: 국가산업단지
+ - 2: 일반산업단지
+ - 3: 도시첨단산업단지
+ - 4: 농공단지
+
+ADDR_CD : 법정동코드
+
+ASSIGN_DATE : 지정일자
+CANCEL_DATE : 지정해제일자
