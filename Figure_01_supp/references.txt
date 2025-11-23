@@ -1,0 +1,7 @@
+References
+
+http://www.biz-gis.com/index.php?mid=pds&document_srl=6395
+
+http://tmdlms.nier.go.kr/announ/ReferenceView.do?seq=281&pageIdx=1&tabId=sub_04_02_02&code=&sVal=&gubun=watershed
+
+KRF 3.0: http://water.nier.go.kr/front/riverNetwork/riverNetwork.jsp#rivernetwork_contents04
