@@ -41,6 +41,17 @@ The resulting plot will be saved as `plots/Figure09.pdf`.
 
 ### Remark
 
+-   Figure 1 and 7 require registering an API key for Stadia Maps.
+    Please refer to the documentation:
+    <https://search.r-project.org/CRAN/refmans/ggmap/html/register_stadiamaps.html>.
+    After obtaining your API key, register it as follows:
+
+    
+``` r
+library(ggmap)
+register_stadiamaps(key = "YOUR-API-KEY") 
+```
+
 - `Figure_07_spatialcomponet.R` should be executed **after** running `Figure_01_Map.R`.
 
 - The following two files should be executed **after** running
@@ -56,15 +67,6 @@ The resulting plot will be saved as `plots/Figure09.pdf`.
     -   `Figure_16_estimatedcdf.R` should be executed **after**
     `Figure_15_forecastedexpectiles.R`.
 
-    -   Figure 1 and 7 require registering an API key for Stadia Maps.
-        Please refer to the documentation:
-        <https://search.r-project.org/CRAN/refmans/ggmap/html/register_stadiamaps.html>.
-        After obtaining your API key, register it as follows:
-
-``` r
-library(ggmap)
-register_stadiamaps(key = "YOUR-API-KEY") 
-```
 
 -   Approximate computation times (based on R 4.2.1 on a MacBook Pro
     with M1 Max and 64GB memory):
