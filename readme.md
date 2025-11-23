@@ -41,23 +41,25 @@ The resulting plot will be saved as `plots/Figure09.pdf`.
 
 ### Remark
 
-” - The following two files should be executed **after** running
+- `Figure_07_spatialcomponet.R` should be executed **after** running `Figure_01_Map.R`.
+
+- The following two files should be executed **after** running
 `Figure_12_forecastedexpectiles.R`:
 
--   `Figure_13_estimatedcdf.R`
+    -   `Figure_13_estimatedcdf.R`
 
--   `Figure_14_CRPSscores.R`
+    -   `Figure_14_CRPSscores.R`
 
--   `Table_1_CRPSscores.R` should be executed **after** the 3 files
+    -   `Table_1_CRPSscores.R` should be executed **after** the 3 files
     above.
 
--   `Figure_16_estimatedcdf.R` should be executed **after**
+    -   `Figure_16_estimatedcdf.R` should be executed **after**
     `Figure_15_forecastedexpectiles.R`.
 
--   Figure 1 and 7 require registering an API key for Stadia Maps.
-    Please refer to the documentation:
-    <https://search.r-project.org/CRAN/refmans/ggmap/html/register_stadiamaps.html>.
-    After obtaining your API key, register it as follows:
+    -   Figure 1 and 7 require registering an API key for Stadia Maps.
+        Please refer to the documentation:
+        <https://search.r-project.org/CRAN/refmans/ggmap/html/register_stadiamaps.html>.
+        After obtaining your API key, register it as follows:
 
 ``` r
 library(ggmap)
