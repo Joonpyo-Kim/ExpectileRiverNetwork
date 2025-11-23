@@ -1,0 +1,94 @@
+                1-year-ahead      2-year-ahead     
+Proposed method "0.0418 (0.0364)" "0.0364 (0.0274)"
+Benchmark 1     "0.0827 (0.0628)" "0.0743 (0.0585)"
+Benchmark 2     "0.0584 (0.0433)" "0.0531 (0.0372)"
+Benchmark 3     "0.056 (0.0482)"  "0.0486 (0.0401)"
+               _                           
+platform       aarch64-apple-darwin20      
+arch           aarch64                     
+os             darwin20                    
+system         aarch64, darwin20           
+status                                     
+major          4                           
+minor          2.1                         
+year           2022                        
+month          06                          
+day            23                          
+svn rev        82513                       
+language       R                           
+version.string R version 4.2.1 (2022-06-23)
+nickname       Funny-Looking Kid           
+               _                           
+platform       aarch64-apple-darwin20      
+arch           aarch64                     
+os             darwin20                    
+system         aarch64, darwin20           
+status                                     
+major          4                           
+minor          2.1                         
+year           2022                        
+month          06                          
+day            23                          
+svn rev        82513                       
+language       R                           
+version.string R version 4.2.1 (2022-06-23)
+nickname       Funny-Looking Kid           
+$platform
+[1] "aarch64-apple-darwin20"
+
+$arch
+[1] "aarch64"
+
+$os
+[1] "darwin20"
+
+$system
+[1] "aarch64, darwin20"
+
+$status
+[1] ""
+
+$major
+[1] "4"
+
+$minor
+[1] "2.1"
+
+$year
+[1] "2022"
+
+$month
+[1] "06"
+
+$day
+[1] "23"
+
+$`svn rev`
+[1] "82513"
+
+$language
+[1] "R"
+
+$version.string
+[1] "R version 4.2.1 (2022-06-23)"
+
+$nickname
+[1] "Funny-Looking Kid"
+
+               _                           
+platform       aarch64-apple-darwin20      
+arch           aarch64                     
+os             darwin20                    
+system         aarch64, darwin20           
+status                                     
+major          4                           
+minor          2.1                         
+year           2022                        
+month          06                          
+day            23                          
+svn rev        82513                       
+language       R                           
+version.string R version 4.2.1 (2022-06-23)
+nickname       Funny-Looking Kid           
+[1] 2
+[1] 2
